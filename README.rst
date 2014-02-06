@@ -9,11 +9,11 @@ Launch a Google search for exceptions from Python apps.
 ::
 
     $ wtw ./tester.py
-    Caught a <type 'exceptions.TypeError'> exception: unhashable type: 'list'
+    Searching for: uypeError unhashable type: 'list'
     Traceback (most recent call last):
       File Users/dhellmann/Envs/whatthewhat/bin/wtw line 10, in <module>
         sys.exit(main())
-      File Users/dhellmann/Devel/whatthewhat/whatthewhat/main.py line 64, in main
+      File Users/dhellmann/Devel/whatthewhat/whatthewhat/main.py line 65, in main
         sys.argv,
       File Users/dhellmann/Devel/whatthewhat/whatthewhat/execfile.py line 120, in run_python_file
         exec_code_object(code, main_mod.__dict__)
