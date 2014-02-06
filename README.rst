@@ -1,23 +1,26 @@
-===============================
+==============
 What the What?
-===============================
+==============
 
-.. image:: https://badge.fury.io/py/whatthewhat.png
-    :target: http://badge.fury.io/py/whatthewhat
-    
-.. image:: https://travis-ci.org/dhellmann/whatthewhat.png?branch=master
-        :target: https://travis-ci.org/dhellmann/whatthewhat
+Launch a Google search for exceptions from Python apps.
 
-.. image:: https://pypip.in/d/whatthewhat/badge.png
-        :target: https://crate.io/packages/whatthewhat?version=latest
+::
 
-
-Launch a Google search for exceptions from Python apps
+    $ wtw ./tester.py
+    Caught a <type 'exceptions.TypeError'> exception: unhashable type: 'list'
+    Traceback (most recent call last):
+      File Users/dhellmann/Envs/whatthewhat/bin/wtw line 10, in <module>
+        sys.exit(main())
+      File Users/dhellmann/Devel/whatthewhat/whatthewhat/main.py line 64, in main
+        sys.argv,
+      File Users/dhellmann/Devel/whatthewhat/whatthewhat/execfile.py line 120, in run_python_file
+        exec_code_object(code, main_mod.__dict__)
+      File exec_function> line 2, in exec_code_object
+      File /tester.py line 7, in <module>
+        f()
+      File /tester.py line 5, in f
+        return {['a', 'b']: ['c', 'd']}
+    TypeError: unhashable type: 'list'
 
 * Free software: BSD license
 * Documentation: http://whatthewhat.rtfd.org.
-
-Features
---------
-
-* TODO
