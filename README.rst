@@ -30,4 +30,3 @@ Inspired by
 .. image:: https://raw2.github.com/dhellmann/whatthewhat/master/tweets.png
 
 * Free software: BSD license
-* Documentation: http://whatthewhat.rtfd.org.
