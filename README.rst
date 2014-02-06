@@ -1,3 +1,5 @@
+.. -*- mode: rst -*-
+
 ==============
 What the What?
 ==============
@@ -21,6 +23,11 @@ Launch a Google search for exceptions from Python apps.
       File /tester.py line 5, in f
         return {['a', 'b']: ['c', 'd']}
     TypeError: unhashable type: 'list'
+
+Inspired by
+===========
+
+.. image:: https://raw2.github.com/dhellmann/whatthewhat/master/tweets.png
 
 * Free software: BSD license
 * Documentation: http://whatthewhat.rtfd.org.
