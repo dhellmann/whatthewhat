@@ -19,12 +19,14 @@ _exit_code = 0
 def _search_for_error(type, value, traceback):
     global _exit_code
 
-    query_args = {
-        'q': unicode(type.__name__) + u' ' + unicode(value),
-    }
+    search_text = unicode(type.__name__) + u' ' + unicode(value)
+    print('Searching for: %r\n' % search_text)
+
+    query_args = {'q': search_text}
     encoded_args = urllib.urlencode(query_args)
     full_url = BASE_URL + encoded_args
     webbrowser.open(full_url)
+
     if _old_hook:
         _old_hook(type, value, traceback)
     _exit_code = 1
