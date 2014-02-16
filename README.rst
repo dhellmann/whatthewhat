@@ -9,7 +9,7 @@ Launch a Google search for exceptions from Python apps.
 ::
 
     $ wtw ./tester.py
-    Searching for: uypeError unhashable type: 'list'
+    Searching for: TypeError unhashable type: 'list'
     Traceback (most recent call last):
       File Users/dhellmann/Envs/whatthewhat/bin/wtw line 10, in <module>
         sys.exit(main())
