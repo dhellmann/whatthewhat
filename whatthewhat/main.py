@@ -10,7 +10,7 @@ import pkg_resources
 
 from . import execfile
 
-BASE_URL = 'http://www.google.com/#&'
+BASE_URL = 'https://www.google.com/#&'
 
 _old_hook = None
 _exit_code = 0
