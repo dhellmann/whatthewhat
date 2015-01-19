@@ -27,4 +27,5 @@ Launch a Google search for exceptions from Python apps.
 Inspired by
 ===========
 
-.. image:: https://raw2.github.com/dhellmann/whatthewhat/master/tweets.png
+.. image:: https://github.com/dhellmann/whatthewhat/blob/master/tweets.png
+
